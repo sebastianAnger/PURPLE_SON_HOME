@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="es_project_title"><![CDATA[Recorrido Virtual CRIT]]></data>
+  <data name="es_project_author_name"><![CDATA[Osbaldo Lopez B, Lenika  Guerrero V, Misael Yepiz R]]></data>
+
+
+  <data name="es_panogroup21_title"><![CDATA[Exterior]]></data>
+
+  <data name="es_pano20_title"><![CDATA[ENTRADA 2]]></data>
+  <data name="es_spotpoint36_tooltip"><![CDATA[Estacionamiento]]></data>
+  <data name="es_spotpoint37_tooltip"><![CDATA[Entrada]]></data>
+  <data name="es_spotpoint38_tooltip"><![CDATA[Piedra CRIT]]></data>
+  <data name="es_spotpoint39_tooltip"><![CDATA[Banderas]]></data>
+  <data name="es_pano22_title"><![CDATA[Entrada_recepcion]]></data>
+  <data name="es_spotpoint42_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_spotpoint43_tooltip"><![CDATA[Explanada]]></data>
+  <data name="es_pano23_title"><![CDATA[Estacionamiento]]></data>
+  <data name="es_pano26_title"><![CDATA[CANCHA]]></data>
+  <data name="es_spotpoint45_tooltip"><![CDATA[Zona de Juegos]]></data>
+  <data name="es_pano30_title"><![CDATA[ATRAS1]]></data>
+  <data name="es_spotpoint270_tooltip"><![CDATA[Zona de Juegos]]></data>
+  <data name="es_pano267_title"><![CDATA[Parque]]></data>
+  <data name="es_spotpoint271_tooltip"><![CDATA[Mecanoterapia]]></data>
+  <data name="es_spotpoint1265_tooltip"><![CDATA[Cancha de Usos Múltiples]]></data>
+
+  <data name="es_panogroup80_title"><![CDATA[Principal]]></data>
+
+  <data name="es_pano78_title"><![CDATA[Recepcion1]]></data>
+  <data name="es_spotpoint92_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_spotpoint93_tooltip"><![CDATA[Entrada]]></data>
+  <data name="es_spotpoint94_tooltip"><![CDATA[Desierto de Día]]></data>
+  <data name="es_spotpoint95_tooltip"><![CDATA[Desierto de Noche]]></data>
+  <data name="es_spotpoint107_tooltip"><![CDATA[Gobierno]]></data>
+  <data name="es_spotpoint790_tooltip"><![CDATA[Atención al Público]]></data>
+  <data name="es_spotpoint824_tooltip"><![CDATA[CRIT México]]></data>
+  <data name="es_spotpoint825_tooltip"><![CDATA[Lema]]></data>
+  <data name="es_pano79_title"><![CDATA[Recepcion2]]></data>
+  <data name="es_spotpoint96_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_spotpoint97_tooltip"><![CDATA[Bazar]]></data>
+  <data name="es_spotpoint98_tooltip"><![CDATA[Comedor]]></data>
+  <data name="es_spotpoint99_tooltip"><![CDATA[Pasillo de la Enseñanza]]></data>
+  <data name="es_spotpoint100_tooltip"><![CDATA[Capilla]]></data>
+  <data name="es_spotpoint831_tooltip"><![CDATA[Mapa General]]></data>
+  <data name="es_pano82_title"><![CDATA[BAZAR_1]]></data>
+  <data name="es_spotpoint119_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_pano84_title"><![CDATA[COMEDOR]]></data>
+  <data name="es_spotpoint105_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_pano86_title"><![CDATA[CAPILLA2]]></data>
+  <data name="es_spotpoint106_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_pano88_title"><![CDATA[gobierno]]></data>
+  <data name="es_spotpoint109_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_spotpoint110_tooltip"><![CDATA[Sala de Juntas]]></data>
+  <data name="es_spotpoint793_tooltip"><![CDATA[Gobierno]]></data>
+  <data name="es_pano90_title"><![CDATA[SALAJUNTAS]]></data>
+  <data name="es_spotpoint111_tooltip"><![CDATA[Pasillo de Gobierno]]></data>
+  <data name="es_spotpoint833_tooltip"><![CDATA[Certificaciones]]></data>
+  <data name="es_spotpoint834_tooltip"><![CDATA[Certificaciones]]></data>
+  <data name="es_pano101_title"><![CDATA[PA2]]></data>
+  <data name="es_spotpoint112_tooltip"><![CDATA[Pasillo de la Enseñanza]]></data>
+  <data name="es_spotpoint113_tooltip"><![CDATA[Recepcion del tren]]></data>
+  <data name="es_spotpoint776_tooltip"><![CDATA[Archivo Clinico]]></data>
+  <data name="es_pano103_title"><![CDATA[PA1]]></data>
+  <data name="es_spotpoint114_tooltip"><![CDATA[Pasillo de enseñanza]]></data>
+  <data name="es_spotpoint117_tooltip"><![CDATA[Aulas]]></data>
+  <data name="es_spotpoint844_tooltip"><![CDATA[BOCCIA]]></data>
+  <data name="es_pano115_title"><![CDATA[Aulas]]></data>
+  <data name="es_spotpoint118_tooltip"><![CDATA[Pasillo de la Enseñanza]]></data>
+
+  <data name="es_panogroup122_title"><![CDATA[valoracion]]></data>
+
+  <data name="es_pano121_title"><![CDATA[DESIERTO_DIA_1]]></data>
+  <data name="es_spotpoint167_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint168_tooltip"><![CDATA[Cuarto de Niños]]></data>
+  <data name="es_spotpoint169_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_pano138_title"><![CDATA[PASILLO_DIA_1]]></data>
+  <data name="es_spotpoint170_tooltip"><![CDATA[Desierto de Día]]></data>
+  <data name="es_spotpoint171_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint172_tooltip"><![CDATA[Psicología]]></data>
+  <data name="es_spotpoint174_tooltip"><![CDATA[Clínica B]]></data>
+  <data name="es_spotpoint175_tooltip"><![CDATA[Clínica A]]></data>
+  <data name="es_spotpoint195_tooltip"><![CDATA[Voluntariado]]></data>
+  <data name="es_spotpoint778_tooltip"><![CDATA[Psicología]]></data>
+  <data name="es_spotpoint779_tooltip"><![CDATA[Integración Social]]></data>
+  <data name="es_spotpoint780_tooltip"><![CDATA[Voluntariado]]></data>
+  <data name="es_pano139_title"><![CDATA[PASILLO_DIA_2]]></data>
+  <data name="es_spotpoint177_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint178_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint180_tooltip"><![CDATA[Urología Pediátrica]]></data>
+  <data name="es_spotpoint182_tooltip"><![CDATA[Realidad Virtual]]></data>
+  <data name="es_spotpoint184_tooltip"><![CDATA[Nutrición]]></data>
+  <data name="es_spotpoint186_tooltip"><![CDATA[Enfermería]]></data>
+  <data name="es_spotpoint784_tooltip"><![CDATA[Médicos Acompañantes]]></data>
+  <data name="es_pano137_title"><![CDATA[PASILLO_DIA3]]></data>
+  <data name="es_spotpoint179_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint188_tooltip"><![CDATA[Electroencefalografía]]></data>
+  <data name="es_spotpoint190_tooltip"><![CDATA[Electroneurodiagnóstico]]></data>
+  <data name="es_spotpoint193_tooltip"><![CDATA[Comunicación Humana]]></data>
+  <data name="es_spotpoint788_tooltip"><![CDATA[Médicos Interconsultates]]></data>
+  <data name="es_pano126_title"><![CDATA[AREA_NIÑOS]]></data>
+  <data name="es_spotpoint553_tooltip"><![CDATA[Desierto de Día]]></data>
+  <data name="es_spotpoint828_tooltip"><![CDATA[Voluntaria]]></data>
+  <data name="es_pano127_title"><![CDATA[CLIINICA B]]></data>
+  <data name="es_spotpoint554_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano130_title"><![CDATA[ELECTROCARDIOGRAFIA]]></data>
+  <data name="es_spotpoint191_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano131_title"><![CDATA[ELECTROENCEFALOGRAFIA]]></data>
+  <data name="es_spotpoint192_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano129_title"><![CDATA[COMUNICACION_HUMANA]]></data>
+  <data name="es_spotpoint194_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano132_title"><![CDATA[ENFERMERIA_1]]></data>
+  <data name="es_spotpoint187_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint786_tooltip"><![CDATA[Enfermería]]></data>
+  <data name="es_pano143_title"><![CDATA[_nutricion]]></data>
+  <data name="es_spotpoint185_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano140_title"><![CDATA[RECORRIDO_VIRTUAL]]></data>
+  <data name="es_spotpoint183_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_spotpoint848_tooltip"><![CDATA[Realidad Virtual]]></data>
+  <data name="es_pano142_title"><![CDATA[UROLOGIA_2]]></data>
+  <data name="es_spotpoint181_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano125_title"><![CDATA[360_0167_Stitch_XHC]]></data>
+  <data name="es_spotpoint173_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano128_title"><![CDATA[CLINICA_INTEGRAL]]></data>
+  <data name="es_spotpoint176_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+  <data name="es_pano165_title"><![CDATA[360_0162_Stitch_XHC]]></data>
+  <data name="es_spotpoint196_tooltip"><![CDATA[Pasillo de Valoración]]></data>
+
+  <data name="es_panogroup210_title"><![CDATA[Terapias]]></data>
+
+  <data name="es_pano197_title"><![CDATA[DESIERTO_NOCHE1]]></data>
+  <data name="es_spotpoint233_tooltip"><![CDATA[Recepción del Tren]]></data>
+  <data name="es_spotpoint234_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano202_title"><![CDATA[PASILLO_DN1]]></data>
+  <data name="es_spotpoint235_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint236_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint555_tooltip"><![CDATA[Desierto de Noche]]></data>
+  <data name="es_pano237_title"><![CDATA[360_0186_Stitch_XHC]]></data>
+  <data name="es_spotpoint239_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint240_tooltip"><![CDATA[Estimulación Múltiple Temprana]]></data>
+  <data name="es_spotpoint242_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint243_tooltip"><![CDATA[Mecanoterapia]]></data>
+  <data name="es_pano204_title"><![CDATA[PASILLO_DN3]]></data>
+  <data name="es_spotpoint245_tooltip"><![CDATA[Electroterapia]]></data>
+  <data name="es_spotpoint249_tooltip"><![CDATA[Asesoría Pedagógica]]></data>
+  <data name="es_spotpoint253_tooltip"><![CDATA[Hidroterapia]]></data>
+  <data name="es_spotpoint255_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint256_tooltip"><![CDATA[Centro de Cómputo]]></data>
+  <data name="es_spotpoint260_tooltip"><![CDATA[Zona de Marcha]]></data>
+  <data name="es_pano229_title"><![CDATA[CEMS1]]></data>
+  <data name="es_spotpoint272_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint519_tooltip"><![CDATA[Aula Digital]]></data>
+  <data name="es_spotpoint524_tooltip"><![CDATA[Casita]]></data>
+  <data name="es_spotpoint532_tooltip"><![CDATA[CEMS]]></data>
+  <data name="es_spotpoint537_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano230_title"><![CDATA[CEMS2]]></data>
+  <data name="es_spotpoint538_tooltip"><![CDATA[Baño Familiar]]></data>
+  <data name="es_spotpoint542_tooltip"><![CDATA[Estación de Costura]]></data>
+  <data name="es_spotpoint550_tooltip"><![CDATA[Estacion de Férulas]]></data>
+  <data name="es_spotpoint551_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint748_tooltip"><![CDATA[Terapia de Lenguaje]]></data>
+  <data name="es_spotpoint801_tooltip"><![CDATA[Terapia de Lenguaje]]></data>
+  <data name="es_pano198_title"><![CDATA[ESTIMULACION_TEMPRANA2]]></data>
+  <data name="es_spotpoint241_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano199_title"><![CDATA[HIDROTERAPIA]]></data>
+  <data name="es_spotpoint254_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint846_tooltip"><![CDATA[Hidroterapia]]></data>
+  <data name="es_pano200_title"><![CDATA[MECANOTERAPIA2]]></data>
+  <data name="es_spotpoint244_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint265_tooltip"><![CDATA[Zona de Juegos]]></data>
+  <data name="es_spotpoint552_tooltip"><![CDATA[Zona de Marcha]]></data>
+  <data name="es_spotpoint799_tooltip"><![CDATA[Terapia Física]]></data>
+  <data name="es_spotpoint1948_tooltip"><![CDATA[Lokomat]]></data>
+  <data name="es_pano201_title"><![CDATA[PANO_20171018_112415_18]]></data>
+  <data name="es_pano205_title"><![CDATA[TERAPIA_OCUPACIONAL1]]></data>
+  <data name="es_spotpoint525_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint526_tooltip"><![CDATA[Baño Pediátrico]]></data>
+  <data name="es_spotpoint795_tooltip"><![CDATA[Terapia Ocupacional]]></data>
+  <data name="es_pano206_title"><![CDATA[TERAPIA_OCUPACIONAL_2]]></data>
+  <data name="es_spotpoint527_tooltip"><![CDATA[Casita]]></data>
+  <data name="es_pano207_title"><![CDATA[TERAPIA_PULMONAR2]]></data>
+  <data name="es_spotpoint263_tooltip"><![CDATA[Zona de Marcha]]></data>
+  <data name="es_spotpoint797_tooltip"><![CDATA[Terapia Pulmonar]]></data>
+  <data name="es_pano208_title"><![CDATA[ZONA_MARCHA]]></data>
+  <data name="es_spotpoint261_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint262_tooltip"><![CDATA[Rehabilitación Pulmonar]]></data>
+  <data name="es_spotpoint264_tooltip"><![CDATA[Mecanoterapia]]></data>
+  <data name="es_spotpoint829_tooltip"><![CDATA[Terapia]]></data>
+  <data name="es_pano246_title"><![CDATA[360_0221_Stitch_XHC]]></data>
+  <data name="es_spotpoint248_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano250_title"><![CDATA[360_0220_Stitch_XHC]]></data>
+  <data name="es_spotpoint252_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano257_title"><![CDATA[AULA_MEDIOS_SOLO]]></data>
+  <data name="es_spotpoint259_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano520_title"><![CDATA[AULA_DIGITAL]]></data>
+  <data name="es_spotpoint523_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano528_title"><![CDATA[CEMS_BLUE1]]></data>
+  <data name="es_spotpoint535_tooltip"><![CDATA[CEMS Blanco]]></data>
+  <data name="es_spotpoint536_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano529_title"><![CDATA[CEMS_W1]]></data>
+  <data name="es_spotpoint533_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_spotpoint534_tooltip"><![CDATA[CEMS Azul]]></data>
+  <data name="es_pano539_title"><![CDATA[Baño_Familiar]]></data>
+  <data name="es_spotpoint541_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano543_title"><![CDATA[360_0180_Stitch_XHC]]></data>
+  <data name="es_spotpoint549_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano545_title"><![CDATA[ESTACION_DE_COSTURA]]></data>
+  <data name="es_spotpoint547_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+  <data name="es_pano745_title"><![CDATA[PANO_20171018_112415_18]]></data>
+  <data name="es_spotpoint749_tooltip"><![CDATA[Pasillo de Terapias]]></data>
+
+  <data name="es_panogroup763_title"><![CDATA[Fotografias]]></data>
+
+  <data name="es_pano750_title"><![CDATA[Archivo clínico]]></data>
+  <data name="es_spotpoint777_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano754_title"><![CDATA[Médicos acompañantes]]></data>
+  <data name="es_spotpoint785_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano755_title"><![CDATA[Médicos interconsultantes]]></data>
+  <data name="es_spotpoint789_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano756_title"><![CDATA[PasilloGobierno]]></data>
+  <data name="es_spotpoint794_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano757_title"><![CDATA[Psicología]]></data>
+  <data name="es_spotpoint782_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano760_title"><![CDATA[Terapia ocupacional]]></data>
+  <data name="es_spotpoint796_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano761_title"><![CDATA[Terapia pulmonar]]></data>
+  <data name="es_spotpoint798_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano762_title"><![CDATA[Voluntariado]]></data>
+  <data name="es_spotpoint781_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano753_title"><![CDATA[Integración social]]></data>
+  <data name="es_spotpoint783_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano751_title"><![CDATA[Atención al publico]]></data>
+  <data name="es_spotpoint791_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano752_title"><![CDATA[Enfermería]]></data>
+  <data name="es_spotpoint787_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano759_title"><![CDATA[Terapia física]]></data>
+  <data name="es_spotpoint800_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano758_title"><![CDATA[Terapia de lenguaje]]></data>
+  <data name="es_spotpoint802_tooltip"><![CDATA[Volver al Recorrido]]></data>
+
+  <data name="es_panogroup812_title"><![CDATA[extras]]></data>
+
+  <data name="es_pano804_title"><![CDATA[certificados]]></data>
+  <data name="es_spotpoint836_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano806_title"><![CDATA[f_05]]></data>
+  <data name="es_spotpoint827_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano805_title"><![CDATA[certificados2]]></data>
+  <data name="es_spotpoint835_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano807_title"><![CDATA[f_07]]></data>
+  <data name="es_spotpoint830_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano808_title"><![CDATA[lema]]></data>
+  <data name="es_spotpoint826_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano809_title"><![CDATA[mural]]></data>
+  <data name="es_spotpoint823_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano811_title"><![CDATA[plano]]></data>
+  <data name="es_spotpoint832_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano1745_title"><![CDATA[Hidro]]></data>
+  <data name="es_spotpoint1748_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano2137_title"><![CDATA[Banderas_exterior]]></data>
+  <data name="es_pano2140_title"><![CDATA[piedra_exterior]]></data>
+
+  <data name="es_panogroup838_title"><![CDATA[Videos360]]></data>
+
+  <data name="es_pano837_title"><![CDATA[BOCCIA2]]></data>
+  <data name="es_spotpoint845_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano842_title"><![CDATA[TANQUE]]></data>
+  <data name="es_spotpoint847_tooltip"><![CDATA[Volver al Recorrido]]></data>
+  <data name="es_pano839_title"><![CDATA[Realidad Virtual]]></data>
+  <data name="es_spotpoint849_tooltip"><![CDATA[Volver al recorrido]]></data>
+  <data name="es_pano1945_title"><![CDATA[LOKOMAT]]></data>
+  <data name="es_spotpoint1947_tooltip"><![CDATA[Volver al Recorrido]]></data>
+
+
+
+
+
+
+  <data name="es_videoControlBarplay_tip"><![CDATA[Iniciar]]></data>
+  <data name="es_videoControlBarpause_tip"><![CDATA[Pausa]]></data>
+  <data name="es_videoControlBarsound_mute_tip"><![CDATA[Eliminar sonido]]></data>
+  <data name="es_videoControlBarsound_low_tip"><![CDATA[Sonido Suave]]></data>
+  <data name="es_videoControlBarsound_medium_tip"><![CDATA[Sonido medio]]></data>
+  <data name="es_videoControlBarsound_high_tip"><![CDATA[Sonido alto]]></data>
+  <data name="es_videoControlBarfullscreen_open_tip"><![CDATA[Pantalla completa]]></data>
+  <data name="es_videoControlBarfullscreen_close_tip"><![CDATA[Salir de Pantalla completa]]></data>
+  <data name="es_videoControlBarsourcelabel"><![CDATA[Fuente]]></data>
+  <data name="es_videoControlBarnormallabel"><![CDATA[Normal]]></data>
+  <data name="es_buttontooltip"><![CDATA[]]></data>
+  <data name="es_button1tooltip"><![CDATA[]]></data>
+  <data name="es_button2tooltip"><![CDATA[]]></data>
+  <data name="es_button3tooltip"><![CDATA[]]></data>
+  <data name="es_button4tooltip"><![CDATA[]]></data>
+  <data name="es_button5tooltip"><![CDATA[]]></data>
+  <data name="es_button6tooltip"><![CDATA[]]></data>
+  <data name="es_button7tooltip"><![CDATA[]]></data>
+  <data name="es_button8tooltip"><![CDATA[]]></data>
+  <data name="es_button9tooltip"><![CDATA[]]></data>
+  <data name="es_button10tooltip"><![CDATA[]]></data>
+  <data name="es_button11tooltip"><![CDATA[]]></data>
+  <data name="es_button12tooltip"><![CDATA[]]></data>
+  <data name="es_button13tooltip"><![CDATA[]]></data>
+  <data name="es_button14tooltip"><![CDATA[]]></data>
+  <data name="es_button15tooltip"><![CDATA[]]></data>
+  <data name="es_button16tooltip"><![CDATA[]]></data>
+  <data name="es_button17tooltip"><![CDATA[]]></data>
+  <data name="es_button18tooltip"><![CDATA[]]></data>
+  <data name="es_button19tooltip"><![CDATA[]]></data>
+  <data name="es_button20tooltip"><![CDATA[]]></data>
+  <data name="es_button21tooltip"><![CDATA[]]></data>
+  <data name="es_button22tooltip"><![CDATA[]]></data>
+  <data name="es_button23tooltip"><![CDATA[]]></data>
+  <data name="es_button24tooltip"><![CDATA[]]></data>
+  <data name="es_button25tooltip"><![CDATA[]]></data>
+  <data name="es_button26tooltip"><![CDATA[]]></data>
+  <data name="es_button27tooltip"><![CDATA[]]></data>
+  <data name="es_button28tooltip"><![CDATA[]]></data>
+  <data name="es_button29tooltip"><![CDATA[]]></data>
+  <data name="es_button30tooltip"><![CDATA[]]></data>
+  <data name="es_button31tooltip"><![CDATA[]]></data>
+  <data name="es_button32tooltip"><![CDATA[]]></data>
+  <data name="es_button33tooltip"><![CDATA[]]></data>
+  <data name="es_button34tooltip"><![CDATA[]]></data>
+  <data name="es_button35tooltip"><![CDATA[]]></data>
+  <data name="es_button36tooltip"><![CDATA[]]></data>
+  <data name="es_button37tooltip"><![CDATA[]]></data>
+  <data name="es_button38tooltip"><![CDATA[]]></data>
+  <data name="es_button39tooltip"><![CDATA[]]></data>
+  <data name="es_button40tooltip"><![CDATA[]]></data>
+  <data name="es_button41tooltip"><![CDATA[]]></data>
+  <data name="es_button42tooltip"><![CDATA[]]></data>
+
+
+  <data name="es_vr_setup_hmd0"><![CDATA[SELECCIONE SU HMD]]></data>
+  <data name="es_vr_setup_advanced"><![CDATA[CONFIGURACIÓN AVANZADA]]></data>
+  <data name="es_vr_setup_title"><![CDATA[CONFIGURACIÓN WEB VR]]></data>
+  <data name="es_vr_setup_dvn1"><![CDATA[Dispositivo:]]></data>
+  <data name="es_vr_setup_siz1"><![CDATA[Tamaño de pantalla:]]></data>
+  <data name="es_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="es_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="es_vr_setup_hmd3"><![CDATA[Personalizar]]></data>
+  <data name="es_vr_setup_cal"><![CDATA[Calibrar el giroscopio]]></data>
+  <data name="es_vr_setup_sav"><![CDATA[GUARDAR]]></data>
+  <data name="es_vr_setup_rst"><![CDATA[REINICIO]]></data>
+  <data name="es_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="es_vr_setup_cls"><![CDATA[CERRAR]]></data>
+  <data name="es_vr_setup_m31"><![CDATA[CONFIGURACIÓN HMD]]></data>
+  <data name="es_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="es_vr_setup_dst1"><![CDATA[Distorsión:]]></data>
+  <data name="es_vr_setup_d2tx"><![CDATA[Distorsión 2:]]></data>
+  <data name="es_vr_setup_vig1"><![CDATA[Viñeteado:]]></data>
+  <data name="es_vr_setup_cac1"><![CDATA[Aberración cromática:]]></data>
+  <data name="es_vr_setup_olp1"><![CDATA[Superposición:]]></data>
+  <data name="es_vr_setup_m35"><![CDATA[RETORNO]]></data>
+  <data name="es_vr_setup_cb1"><![CDATA[GIROSCOPIO]]></data>
+  <data name="es_vr_setup_cb2"><![CDATA[Coloque el dispositivo sobre una superficie plana y [br ] y estable y pulse CALIBRAR[br] para corregir la deriva del giroscopio.]]></data>
+  <data name="es_vr_setup_cb3"><![CDATA[CALIBRAR]]></data>
+  <data name="es_vr_setup_cb4"><![CDATA[REINICIO]]></data>
+  <data name="es_vr_setup_cb5"><![CDATA[RETORNO]]></data>
+  <data name="es_vr_setup_cb6"><![CDATA[Calibrando...]]></data>
+  <data name="es_vr_setup_cb7"><![CDATA[Calibración exitosa]]></data>
+  <data name="es_vr_setup_cb8"><![CDATA[Calibración fracasada]]></data>
+  <data name="es_vr_setup_unavailable"><![CDATA[El modo VR no está disponible en tu dispositivo]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
