@@ -3,15 +3,29 @@
 
 body {
     background-color: #fee440;
+    min-height: 100vh; /* Hace el body más alto que la ventana */
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    flex: 1;
+}
+
 .navbar {
     background-color: #6A2975;
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .nav-link {
     font-size: 1.8em;
     color: white;
     font-family: 'myriad-pro', sans-serif;
+}
+
+.nav-link:hover {
+    color: #FDDC03;
 }
 
 svg {
@@ -24,7 +38,8 @@ svg {
 
 footer {
   background-color: #6A2975;
-  position: fixed;
+  /* position: fixed; */
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -50,24 +65,13 @@ footer {
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    /* background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260'); */
+    background-image: url('/src/BoteoDig.jpg');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-}
-
-.card__like {
-    width: 18px;
-}
-
-.card__clock {
-  width: 15px;
-  vertical-align: middle;
-}
-
-.card__clock-info {
-    float: right;
+    /* background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260'); */
+    background-image: url('/src/CRITSON1.png');
 }
 
 .card__img {
@@ -78,16 +82,16 @@ footer {
     width: 100%;
     height: 235px;
   border-top-left-radius: 12px;
-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
-.card__info-hover {
+/* .card__info-hover {
     position: absolute;
     padding: 16px;
   width: 100%;
-  opacity: 0;
+  opacity: 0.5;
   top: 0;
-}
+} */
 
 .card__img--hover {
   transition: 0.2s all ease-out;
@@ -95,7 +99,7 @@ border-top-right-radius: 12px;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-  position: absolute;
+    position: absolute;
     height: 235px;
   border-top-left-radius: 12px;
 border-top-right-radius: 12px;
@@ -104,12 +108,12 @@ top: 0;
 .card {
   margin-right: 25px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-  background-color: #fff;
+  background-color: #6A2975 ;
     /* width: 33.3%; */
     width: 40vw;           /* Tarjetas más grandes */
-    height: 60vh;          /* Más altas */
+    height: 70vh;          /* Más altas */
     min-width: 300px;      /* Tamaño mínimo para responsividad */
-    min-height: 350px;
+    min-height: 300px;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -120,33 +124,53 @@ top: 0;
     transform: scale(1.10, 1.10);
 }
 
-.card__info {
-  z-index: 2;
-  background-color: #fff;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  padding: 16px 24px 24px 24px;
+.card__title {
+    /* margin-top: 5px;
+    margin-bottom: 80px;
+    margin-left: 200px;*/
+    margin: auto;
+    margin-top: 1%;
+    font-size: 42px;
+    font-family: 'myriad-pro', sans-serif;
+    color: white;
 }
 
-.card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
+.card__descr {
+    margin: auto;
+    margin-top: 0%;
+    text-align: center;
     font-family: 'myriad-pro', sans-serif;
+    color: white;
 }
 
 .card:hover .card__img--hover {
     height: 100%;
-    opacity: 0.3;
+    opacity: 1;
 }
 
-.card:hover .card__info {
+#i_play {
+    color: rgb(255, 208, 0);
+    margin: auto;
+    margin-top: 0%;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.card:hover #i_play {
+    display: block;
+}
+
+#social{
+  background-color: #54456b;
+}
+/* .card:hover .card__info {
     background-color: transparent;
     position: relative;
 }
 
 .card:hover .card__info-hover {
-    opacity: 1;
-}
+    opacity: .8;
+} */
 
 /* CARD */
 
