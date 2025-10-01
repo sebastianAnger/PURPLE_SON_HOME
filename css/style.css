@@ -6,6 +6,8 @@ body {
     min-height: 100vh; /* Hace el body más alto que la ventana */
     display: flex;
     flex-direction: column;
+        margin: 0;
+        min-width:fit-content;
 }
 
 main {
@@ -38,12 +40,19 @@ svg {
 
 footer {
   background-color: #6A2975;
-  /* position: fixed; */
   position: relative;
   left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
-  /* opacity: 0.8; Nivel de transparencia */
+}
+
+#pie {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
 }
 
 /* CARD */
@@ -95,21 +104,24 @@ footer {
 
 .card__img--hover {
   transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: absolute;
-    height: 235px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
   border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-top: 0;
+  border-top-right-radius: 12px;
+  top: 0;
+  -webkit-transition: 0.2s all ease-out;
+  -moz-transition: 0.2s all ease-out;
+  -ms-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
 }
 .card {
   margin-right: 25px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #6A2975 ;
-    /* width: 33.3%; */
     width: 40vw;           /* Tarjetas más grandes */
     height: 70vh;          /* Más altas */
     min-width: 300px;      /* Tamaño mínimo para responsividad */
@@ -125,9 +137,6 @@ top: 0;
 }
 
 .card__title {
-    /* margin-top: 5px;
-    margin-bottom: 80px;
-    margin-left: 200px;*/
     margin: auto;
     margin-top: 1%;
     font-size: 42px;
@@ -163,15 +172,6 @@ top: 0;
 #social{
   background-color: #54456b;
 }
-/* .card:hover .card__info {
-    background-color: transparent;
-    position: relative;
-}
-
-.card:hover .card__info-hover {
-    opacity: .8;
-} */
-
 /* CARD */
 
 
@@ -201,3 +201,15 @@ top: 0;
                 transform-origin: 84px 93px;
             }
 /* SVG */
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 15px 0;
+        flex-direction: column;
+    }
+    navbar{
+        padding: 15px 0;
+        flex-direction: column;
+    }
+}
