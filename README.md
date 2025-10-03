@@ -1,7 +1,7 @@
-# 🌀 CSIRSON HUB
+# 🌀 CRITSON HUB
 
-> 🇪🇸 Un pequeño hub web para **CRITSON** que unifica acceso a enlaces clave como **Boteo Digital** y un **Recorrido Virtual** interactivo.  
-> 🇬🇧 A small web hub for **CRITSON** that unifies access to key links such as **Boteo Digital** and an interactive **Virtual Tour**.
+> 🇪🇸 Un pequeño hub web para **CRIT Sonora** que unifica acceso a enlaces clave como **Boteo Digital** y un **Recorrido Virtual** interactivo.  
+> 🇬🇧 A small web hub for **CRIT Sonora** that unifies access to key links such as **Boteo Digital** and an interactive **Virtual Tour**.
 
 ---
 
