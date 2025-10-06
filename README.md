@@ -1,7 +1,7 @@
 # 🌀 CRITSON HUB
 
-> 🇪🇸 Un pequeño hub web para **CRIT Sonora** que unifica acceso a enlaces clave como **Boteo Digital** y un **Recorrido Virtual** interactivo.  
-> 🇬🇧 A small web hub for **CRIT Sonora** that unifies access to key links such as **Boteo Digital** and an interactive **Virtual Tour**.
+> 🇪🇸 Hub web para **CRIT Sonora** que unifica acceso a **Boteo Digital** y un **Recorrido Virtual** interactivo.  
+> 🇬🇧 Web hub for **CRIT Sonora** that unifies access to **Boteo Digital** and an interactive **Virtual Tour**.
 
 ---
 
@@ -20,7 +20,7 @@ Este proyecto es un hub web desarrollado usando plantillas CSS personalizadas. R
 ### 🇬🇧 English
 This project is a small web hub built using custom CSS templates. It combines two main features:
 
-- 💰 **Boteo Digital (Donation Link)**: External platform for financial contributions.
+- 💰 **Boteo Digital ([Donation Link](https://www.alcanciadigitalteleton.mx/index.php))**: External platform for financial contributions.
 - 🏛️ **Virtual Tour**: Interactive experience created with **Krpano**, with copyright held by *Osbaldo* as the tour developer.
 
 > Hub development and implementation was carried out by *@SebastianAnger*.
@@ -43,7 +43,7 @@ This project is a small web hub built using custom CSS templates. It combines tw
 ## 👥 Créditos / Credits
 
 - **Osblado** – Desarrollo del Recorrido Virtual con Krpano  
-- **@SebastianAnger** – Desarrollo e implementación del Hub Web
+- [**@SebastianAnger**](https://github.com/sebastianAnger) – Desarrollo e implementación del Hub Web
 
 ---
 
